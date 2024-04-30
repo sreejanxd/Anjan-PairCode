@@ -95,9 +95,10 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 ┌─❖
 │ Hii 😌
 └┬❖  
-┌┤✑  Thanks for using 🦋😌Anjan WhatsApp bot
+┌┤✑  👀Thanks for using 👀
+││  🍁🦋AnjanBotInc🦋🍁 
 │└────────────┈ ⳹        
-│©2020-2023 AnjanBotInc 
+│©-2024 AnjanBotInc 
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
