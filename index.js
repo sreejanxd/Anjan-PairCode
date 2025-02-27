@@ -12,7 +12,7 @@ const readline = require("readline")
 const { parsePhoneNumber } = require("libphonenumber-js")
 
 
-let phoneNumber = "919883457657"
+let phoneNumber = "917439382677"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -87,7 +87,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             await delay(1000 * 10)
-            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪀Support/Contact Developer\n\n\n Support Group: https://chat.whatsapp.com/CoCndi4zxwdAaSx3QfUEjW\n\n⎆WhatsApp Pm: Wa.me/919883457657\n\n⎆GitHub: https://github.com/Rudraraj3\n\n\n` });
+            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪀Support/Contact Developer\n\n\n Support Group: https://whatsapp.com/channel/0029VaqdVpYGU3BTWmGp5Z2r\n\n⎆WhatsApp Pm: Wa.me/917439382677\n\n⎆GitHub: https://github.com/iamsreejan\n\n\n` });
             let sessionXeon = fs.readFileSync('./sessions/creds.json');
             await delay(1000 * 2) 
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
@@ -96,9 +96,9 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 │ Hii 😌
 └┬❖  
 ┌┤✑  👀Thanks for using 👀
-││  🍁🦋AnjanBotInc🦋🍁 
+││  🍁🦋WokerXd🦋🍁 
 │└────────────┈ ⳹        
-│©-2024 AnjanBotInc 
+│©-2025 Woker-Xd 
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
